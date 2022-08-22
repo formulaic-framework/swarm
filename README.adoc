@@ -1,0 +1,14 @@
+= Docker Swarm Operations
+
+This repository contains a set of runbooks to deploy and administrate a Docker Swarm instance,
+and an inventory of metadata about the resources in the current swarm.
+
+[NOTE]
+====
+This repository is based of Formulaic's Swarm runbooks.
+
+If you would like to setup your own Swarm instance using these runbooks,
+you should start by forking the https://github.com/formulaic-framework/swarm[original template repository].
+
+You may wish to view Formulaic's documentation to learn how to best use these runbooks.
+====
