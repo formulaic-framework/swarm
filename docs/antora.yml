@@ -1,0 +1,16 @@
+name: swarm
+title: Swarm Runbooks
+version: '0.1'
+
+start_page: ROOT:index.adoc
+
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/admin/nav.adoc
+
+asciidoc:
+  attributes:
+    age: https://github.com/FiloSottile/age[age]
+    jupyter: https://jupyter.org/[jupyter]
+    sops: https://github.com/mozilla/sops[SOPS]
+    swarm: https://docs.docker.com/engine/swarm/[Docker Swarm]
