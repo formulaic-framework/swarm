@@ -1,0 +1,7 @@
+= Initialize Swarm Configuration
+
+The core properties of the Swarm configuration will be stored in a `swarm.yml` file
+in the root of the repository.
+
+You should copy and run the `init-config` runbook after configuring SOPS
+to create a new file that can be used with {sops} utilities.

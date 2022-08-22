@@ -1,0 +1,19 @@
+= Import age Key
+
+You can import an {age} key that you already have.
+
+Copy the `age-add-existing-key` runbook,
+and run it.
+
+You will be prompted for three items:
+
+name::
+You should specify a name/alias for the key.
+You may wish to use some alias like `"ci"`, or enter something like your username.
+
+public key::
+Enter your {age} public key, which should start `age`
+
+groups::
+Enter a list of groups that this key will be able to decrypt, comma separated.
+The default SOPS configuration uses `"ops"` as a group that can access all sensitive information.

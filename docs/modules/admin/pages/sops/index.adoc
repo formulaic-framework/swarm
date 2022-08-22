@@ -1,0 +1,21 @@
+= SOPS Administration
+
+Most runbooks expect you to secure secrets in your repository with {sops} and an {age} key,
+allowing you to securely commit sensitive information.
+
+Even if you do not wish to encrypt any information, you should setup {sops} so data can be stored/retrieved.
+
+== Setup
+
+You should complete all of the following actions to setup your new repository.
+
+. _(Optional)_
+  xref:sops/disable.adoc[Disable encryption] if you do not wish to hide any information
+. Either xref:sops/generate.adoc[generate] or xref:sops/import.adoc[import] an {age} key
+. xref:sops/update.adoc[Update SOPS configuration]
+. xref:sops/init.adoc[Initialize configuration files]
+
+== Actions
+
+You may wish to run the following runbooks during your initial setup
+or at a later point.

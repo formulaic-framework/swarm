@@ -1,0 +1,4 @@
+# Decrypted Files
+## Scripts may decrypt secrets to temporary files to access the data;
+## ignoring these temporary files will prevent them from being accidentally committed.
+swarm.decrpted.yml

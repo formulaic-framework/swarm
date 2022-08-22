@@ -1,0 +1,6 @@
+* xref:index.adoc[Administration]
+** xref:sops/index.adoc[SOPS]
+*** xref:sops/disable.adoc[Disable SOPS]
+*** xref:sops/import.adoc[]
+*** xref:sops/update.adoc[Update Config]
+*** xref:sops/init.adoc[]

@@ -1,0 +1,8 @@
+= Organizing Runbooks
+
+Inside the runbook repository, each operation is provided as a runbook inside the `runbooks/` directory.
+
+We recommend copying each runbook into a `history/` directory as you run it,
+and commit each runbook including the output of each script.
+
+This will provide a viewable history of each action that has been taken in the swarm.

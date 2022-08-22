@@ -1,0 +1,25 @@
+= Disable SOPS Encryption
+
+If you do not wish to hide any properties, you should still complete the {sops} setup,
+so that scripts can call SOPS commands without errors.
+
+However, you can tweak the SOPS configuration to ensure that all data is still visible.
+
+== Update Template
+
+You will need to update the `.sops.yaml.j2` template.
+
+Change each instance of `encrypted_regex` to a pattern that will not match any properties,
+e.g. `key_never_used\{10}`.
+
+.Example `.sops.yaml.j2`
+[source,yml]
+----
+creation_rules:
+  - path_regex: swarm.yml
+    age: "{{ops}}"
+    encrypted_regex: 'key_never_used{10}'
+----
+
+You will need to xref:sops/init.adoc[update the SOPS configuration file] after changing
+the file for the changes to be used.

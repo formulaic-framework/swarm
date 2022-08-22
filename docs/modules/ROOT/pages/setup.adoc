@@ -1,0 +1,33 @@
+= Local Setup
+
+To use these runbooks locally, you will need to install a few dependencies.
+
+== Environment
+
+These runbooks are designed to run well inside Visual Studio Code in a Linux environment,
+using the Jupyter extensions for VSCode.
+
+Running on Windows is only officially supported using WSL2, via VSCode's WSL integration.
+
+== SOPS and age
+
+You must install {sops} and {age}.
+
+== Python
+
+You will need to install Python 3.  Instructions are provided for Ubuntu:
+
+.Installing Python on Ubuntu
+[source,sh]
+----
+apt-get install -y python3 python3-pip
+----
+
+== PIP Libraries
+
+You must install a set of libraries used inside runbooks via `pip`:
+
+[source,sh]
+----
+pip install -r requirements.txt
+----

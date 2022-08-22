@@ -1,0 +1,7 @@
+= Runbook Administration
+
+This section covers most of the initial forking and setup tasks
+that will be needed before you can use runbooks that will update your Docker Swarm installation.
+
+Because our runbooks support multiple clouds and different configurations,
+you may wish to skip over some sections.

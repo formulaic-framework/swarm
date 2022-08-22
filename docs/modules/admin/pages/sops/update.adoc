@@ -1,0 +1,6 @@
+= Update SOPS Configuration
+
+After you make changes to the `.sops.yaml.j2` template
+or change the encryption keys, you should regenerate the SOPS configuration.
+
+Copy and run the `age-update-keys` runbook.

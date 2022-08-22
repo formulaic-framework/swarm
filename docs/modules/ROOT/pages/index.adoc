@@ -1,0 +1,28 @@
+= Docker Swarm Runbooks
+
+Formulaic has produced a set of runbooks to help setup and administer
+a {swarm} instance.
+
+== Features
+
+* Runbooks powered by {jupyter}
+** High-level scripts written in Python 3
+** Provides visibility into scripts
+** Can run runbooks step-by-step
+** Produces a committable log of changes
+
+* Data stored in YAML (secured by {sops} and {age})
+** Easy to browse infrastructure information
+** Configurable security for sensitive information
+
+== Documentation
+
+We have split documentation into two main categories.
+
+The first section ("Administration") covers the initial steps
+needed to clone and setup the runbooks with encryption keys
+and credentials/configuration for cloud providers.
+
+The section section ("Usage") covers all remaining runbooks,
+which are focused on day-to-day Swarm tasks, which will depend
+on the initial administration being complete first.
