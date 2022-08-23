@@ -1,0 +1,5 @@
+= Forking
+
+You should fork the runbooks on https://gitlab.com/formulaic/swarm[GitLab] or https://github.com/formulaic-framework/swarm[GitHub].
+
+Forks on GitLab can be private.
